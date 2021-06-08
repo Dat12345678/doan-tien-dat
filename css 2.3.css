@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+#outer{
+	width: 1500px;
+	height: 600px;
+}
+.clearfix{
+	clear: both
+}
+.hearder{
+	width: 100%;
+	height: 120px;
+	background: rgba(255,255,255,1.00);
+}
+.main{
+	width: 100%;
+	height: 120px;
+	background: rgba(43,13,159,1.00);
+}
+.logo{
+	width: 15%;
+	height: 80px;
+	float: left;
+}
+.banner{
+	width: 80%;
+	height: 80px;
+	float: right;
+	font-family: 'Staatliches', cursive;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 11%, rgba(9,9,121,1) 47%);
+}
+.menu{
+	width: calc(100%-8px);
+	height: 32px;
+	margin-top: 5px;
+	border: 4px solid black;
+}
+.clearfix{
+	clear: both
+}
+.left{
+	width:20%;
+	height:900px;
+	background: rgba(22,237,95,1.00);
+	float: left;
+	margin-top: auto;
+}
+.banner ul{
+	list-style: none;
+}
+.banner ul li {
+	float: right;
+	margin: 0 20px;
+	line-height: 32px;
+}
+.banner ul li a{
+	color: aqua;
+	text-decoration: none;
+}
+.right{
+	width: 80%;
+	height:900px;
+	background: rgba(217,234,93,1.00);
+	float: left;
+}
+.footer{
+	width: calc(100%-8px);
+	height: 70px;
+	margin-top: 101px;
+	margin-bottom: 51px;
+	clear: both;
+	border: 4px solid black;
+}
+.footer ul{
+	list-style: none;
+}
+.footer ul li {
+	float: right;
+	margin: 0 20px;
+	line-height: 32px;
+}
+.footer ul li a{
+	color: aqua;
+	text-decoration: none;
+}
+.left1{
+	width:30%;
+	height: 500px;
+	background: rgba(217,234,93,1.00);
+	float: left;
+	margin-top: auto;
+}
+.right1{
+	font-family: 'Roboto', sans-serif;
+	width: 70%;
+	height: 500px;
+	float: right;
+}
+.footer1{
+	width: calc(100%-8px);
+	height: 70px;
+	margin-top: 51px;
+	margin-bottom: 51px;
+	clear: both;
+	border: 4px solid black;
+}
+.footer1 ul{
+	list-style: none;
+}
+.footer1 ul li {
+	float: right;
+	margin: 0 20px;
+	line-height: 32px;
+}
+.footer1 ul li a{
+	color: aqua;
+	text-decoration: none;
+}
+.left2{
+	width:30%;
+	height: 500px;	
+	float: left;
+	margin-top: auto;
+}
+.right2{
+	font-family: 'Roboto', sans-serif;
+	width: 70%;
+	height: 500px;
+	background: rgba(217,234,93,1.00);
+	float: right;
+}
+.footer2{
+	width: 100%;
+	height: 70px;
+	margin-top: 51px;
+	clear: both;
+	border: 4px solid rgba(255,255,255,1.00);
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,65,255,1) 0%, rgba(142,73,148,1) 100%);
+}
+.footer2 ul{
+	list-style: none;
+	margin: 0 20px;
+}
+.footer2 ul li {
+	float: right;
+	line-height: 32px;
+}
+.footer2 ul li a{
+	color: white;
+	text-decoration: none;
+	margin: 0 20px;
+}
+	
+	
